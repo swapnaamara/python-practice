@@ -3,21 +3,18 @@ def read_in_chunks(file_path, chunk_size=1024):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             while True:
-                data = f.read(chunk_size)  # chunk_size bytes chaduvu
-                if not data:  # file aipothe break
+                data = f.read(chunk_size)  
+                if not data:  
                     break
-                yield data  # oka chunk return cheyi
+                yield data  
     except FileNotFoundError:
-        print(f"Error: {file_path} file dorakaleda")
+        print(f"Error: {file_path} ")
     except Exception as e:
         print(f"Error: {e}")
 
 
 def process(chunk):
-    """
-    Prati chunk ni ela process cheyalo ee function lo rayi
-    Example: line count, word count, search etc
-    """
+    
 
     print(f"Processing chunk of size: {len(chunk)} bytes")
     
