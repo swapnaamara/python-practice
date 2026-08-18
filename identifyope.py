@@ -6,7 +6,6 @@ name2 = "john"
 result_is_not = name1 is not name2
 print("name1 is not name2?",result_is_not)
 
-
 num1 = 10
 num2 = 20
 result_is = num1 is not num2
