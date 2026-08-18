@@ -6,7 +6,6 @@ def trap_water(n, heights):
     left_max = heights[left]
     right_max = heights[right]
     total_water = 0
-    
     while left < right:
         if left_max < right_max:
             left += 1
