@@ -4,9 +4,6 @@ Assignment operators
 logical operators
 comparison operators
 bitwise operators
-
-
-
 '''
 #arithmatic operators
 #addition
@@ -14,7 +11,6 @@ a = 10
 b = 20
 c = (a+b)
 print(c)
-
 
 #sub
 a = 10 
@@ -56,7 +52,6 @@ print(c)
 # = assignment assigns the value right to left
 
 #add and assign (+=)
-
 a = 10
 b = 20
 a += b #a = a+b
@@ -74,6 +69,4 @@ print(a)
 //=floor divide and assign 
 %= modulo and asign
 **=exponentiate and assign
-
-
 '''
