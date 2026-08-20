@@ -14,4 +14,5 @@ print(a or b)
 p = True
 
 result_not=not p
+
 print(result_not)
