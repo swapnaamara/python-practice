@@ -8,6 +8,7 @@ for num in range(2, n+1):
         if num % i == 0:
             is_prime = False
             break
+            
     if is_prime:
         total += num
 
