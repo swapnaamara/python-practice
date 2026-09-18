@@ -3,7 +3,7 @@ import copy
 class Student:
     def __init__(self, name, marks):
         self.name = name
-        self.marks = marks # list
+        self.marks = marks 
 
 s1 = Student("Ravi", [90, 85])
 s2 = copy.copy(s1) 
