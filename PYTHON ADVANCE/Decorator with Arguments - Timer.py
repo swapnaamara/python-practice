@@ -3,6 +3,7 @@ from functools import wraps
 
 def timer(func):
     @wraps(func)
+    
     def wrapper(*args, **kwargs):
         start = time.time()
         result = func(*args, **kwargs)
@@ -12,6 +13,7 @@ def timer(func):
     return wrapper
 
 @timer
+
 def fib(n):
     if n <= 1: return n
     return fib(n-1) + fib(n-2)
