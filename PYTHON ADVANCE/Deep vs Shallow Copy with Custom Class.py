@@ -10,5 +10,5 @@ s2 = copy.copy(s1) # shallow copy
 s3 = copy.deepcopy(s1) 
 
 s1.marks[0] = 50
-print(s2.marks) # [50, 85] -> changed because shallow
+print(s2.marks) 
 print(s3.marks) 
