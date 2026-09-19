@@ -20,10 +20,6 @@ def process(chunk):
     print(f"Lines in this chunk: {len(lines)}")
     
 
-    
-    
-
-
 # Usage
 if __name__ == "__main__":
     file_name = "big_file.txt"
