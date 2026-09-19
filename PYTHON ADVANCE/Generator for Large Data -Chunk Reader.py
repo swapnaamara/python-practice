@@ -20,7 +20,7 @@ def process(chunk):
     print(f"Lines in this chunk: {len(lines)}")
     
     # Example 3: Specific word search
-    # if "error" in chunk.lower():
+    
     
 
 
