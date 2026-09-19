@@ -18,8 +18,6 @@ def process(chunk):
     
 
     print(f"Processing chunk of size: {len(chunk)} bytes")
-    
-    
     lines = chunk.split('\n')
     print(f"Lines in this chunk: {len(lines)}")
     
