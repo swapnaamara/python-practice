@@ -23,7 +23,7 @@ def process(chunk):
 # Usage
 if __name__ == "__main__":
     file_name = "big_file.txt"
-    chunk_size_bytes = 4096  # 4KB chunks
+    chunk_size_bytes = 4096  
     
     total_chunks = 0
     for chunk in read_in_chunks(file_name, chunk_size_bytes):
