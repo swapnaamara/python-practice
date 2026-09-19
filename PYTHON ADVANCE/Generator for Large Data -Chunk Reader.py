@@ -15,8 +15,6 @@ def read_in_chunks(file_path, chunk_size=1024):
 
 
 def process(chunk):
-    
-
     print(f"Processing chunk of size: {len(chunk)} bytes")
     lines = chunk.split('\n')
     print(f"Lines in this chunk: {len(lines)}")
