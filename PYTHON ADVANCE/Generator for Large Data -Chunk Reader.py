@@ -2,6 +2,7 @@ def read_in_chunks(file_path, chunk_size=1024):
     
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
+            
             while True:
                 data = f.read(chunk_size)  
                 if not data:  
