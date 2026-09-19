@@ -21,7 +21,7 @@ def process(chunk):
     
     # Example 3: Specific word search
     # if "error" in chunk.lower():
-    #     print("Found 'error' in chunk")
+    
 
 
 # Usage
