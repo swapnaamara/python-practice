@@ -30,7 +30,7 @@ b = 20
 c = a/b
 print(c)
 
-#int div(floor division)
+#int division(floor division)
 a = 10
 b = 20
 c = a//b
