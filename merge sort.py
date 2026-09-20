@@ -10,7 +10,6 @@ def merge_arrays(arr1, arr2):
         else:
             merged.append(arr2[p2])
             p2 += 1
-
     return merged + arr1[p1:] + arr2[p2:]
 
 a = [1, 3, 5]
