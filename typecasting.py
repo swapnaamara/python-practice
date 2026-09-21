@@ -4,6 +4,7 @@ print(type(num))
 print(num)
 
 #type casting to int
+
 num_int=int(5.7)
 print(num_int)
 
