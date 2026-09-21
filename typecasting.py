@@ -9,6 +9,7 @@ num_int=int(5.7)
 print(num_int)
 
 #type casting to float
+
 num_float=float("3.14")
 print(num_float)
 
