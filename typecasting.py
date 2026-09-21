@@ -24,5 +24,4 @@ is_true = bool(1)
 is_false=bool(0)
 
 print(is_true)
-
 print(is_false)
