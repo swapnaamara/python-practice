@@ -14,6 +14,7 @@ num_float=float("3.14")
 print(num_float)
 
 #type casting to string
+
 message = str(42)
 print(message)
 
