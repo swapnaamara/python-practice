@@ -1,5 +1,6 @@
 num = 5+ 2.0
 print(type(num))
+
 print(num)
 
 #type casting to int
