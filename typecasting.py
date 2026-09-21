@@ -19,6 +19,7 @@ message = str(42)
 print(message)
 
 #type casting to boolean
+
 is_true = bool(1)
 is_false=bool(0)
 
