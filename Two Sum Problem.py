@@ -15,6 +15,7 @@ for i in range(n):
         if arr[i] + arr[j] == target:
             print(i, j)
             found = True
+            
             break
     if found:
         break
