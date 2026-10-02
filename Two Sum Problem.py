@@ -22,5 +22,4 @@ for i in range(n):
         break
 
 if not found:
-    
     print("No Pair Found")
