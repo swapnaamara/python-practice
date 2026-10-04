@@ -20,6 +20,5 @@ while n!= 0:
 
 if temp == total:
     print("Strong")
-    
 else:
     print("Not Strong")
