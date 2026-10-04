@@ -6,6 +6,7 @@ def factorial(n):
     return fact
 
 n = int(input("Enter number: "))
+
 temp = n
 total = 0
 
