@@ -3,6 +3,7 @@
 fruits = ['apple','banana','orange','grape']
 
 #check if apple is in the list
+
 is_apple_in_list = 'apple' in fruits
 print("'apple' is in the list:",is_apple_in_list)
 
