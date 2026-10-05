@@ -1,4 +1,5 @@
 #list of fruits
+
 fruits = ['apple','banana','orange','grape']
 
 #check if apple is in the list
