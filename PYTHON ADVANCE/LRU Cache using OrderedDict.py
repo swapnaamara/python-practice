@@ -16,6 +16,7 @@ class LRUCache:
         if key in self.cache:
             self.cache.move_to_end(key)
         self.cache[key] = value
+        
         if len(self.cache) > self.capacity:
             # pop least recently used
             self.cache.popitem(last=False)
