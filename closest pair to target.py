@@ -17,6 +17,7 @@ def trap_water(n, heights):
             right -= 1
             right_max = max(right_max, heights[right])
             total_water += right_max - heights[right]
+            
     return total_water
     
 n = 6
