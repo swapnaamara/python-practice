@@ -8,6 +8,7 @@ class LRUCache:
     def get(self, key: int) -> int:
         if key not in self.cache:
             return -1
+            
         # move to end = most recently used
         self.cache.move_to_end(key)
         return self.cache[key]
