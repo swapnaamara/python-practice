@@ -21,4 +21,5 @@ def trap_water(n, heights):
     
 n = 6
 heights = [3, 0, 0, 2, 0, 4]
+
 print(trap_water(n, heights))
