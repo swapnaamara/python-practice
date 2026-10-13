@@ -1,5 +1,4 @@
 #variables with the same name 
-
 name1 = "john"
 name2 = "john"
 
