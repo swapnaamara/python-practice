@@ -68,5 +68,5 @@ print(a)
 /= divide and asign 
 //=floor divide and assign 
 %= modulo and asign
-**=exponentiate and assign
+
 '''
