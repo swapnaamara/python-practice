@@ -1,4 +1,5 @@
 def merge_arrays(arr1, arr2):
+    
     p1, p2 = 0, 0
     merged = []
 
