@@ -15,5 +15,4 @@ async def main():
         fetch("Task3", 3)
     )
     print(results)
-
 asyncio.run(main())
