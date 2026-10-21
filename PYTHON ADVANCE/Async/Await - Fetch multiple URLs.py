@@ -4,7 +4,6 @@ async def fetch(name, delay):
     print(f"{name} started")
     await asyncio.sleep(delay)
     print(f"{name} finished")
-    
     return name
 async def main():
     results = await asyncio.gather(
