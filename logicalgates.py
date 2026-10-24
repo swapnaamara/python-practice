@@ -1,6 +1,7 @@
 #and gate
 a = True 
 b = False
+
 print(a and b)
 
 #or gate
