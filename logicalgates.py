@@ -11,7 +11,6 @@ b = False
 print(a or b)
 
 #not gate
-
 p = True
 result_not=not p
 print(result_not)
