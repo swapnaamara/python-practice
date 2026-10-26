@@ -9,8 +9,7 @@ n = int(input("Enter number: "))
 temp = n
 total = 0
 
-while n!= 0:
-    
+while n!= 0:  
     digit = n % 10
     
     total += factorial(digit)
